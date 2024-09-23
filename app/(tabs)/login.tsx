@@ -26,7 +26,7 @@ const LoginScreen: React.FC = () => {
     }
   };
 
-  return (
+  return   (
     <View style={styles.container}>
       <Text style={styles.title}>Login</Text>
 
