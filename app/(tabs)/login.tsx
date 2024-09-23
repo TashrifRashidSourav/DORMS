@@ -7,7 +7,7 @@ const LoginScreen: React.FC = () => {
   const [errorMessage, setErrorMessage] = useState<string>('');
 
   const validateForm = (): boolean => {
-    if (!email || !password) {
+    if (!email || !password) {    
       setErrorMessage('Email and password are required.');
       return false;
     }
